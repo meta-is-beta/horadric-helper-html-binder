@@ -8,6 +8,10 @@ This is for cases where using custom html tags is not possible.
 - CDN: https://cdn.jsdelivr.net/gh/meta-is-beta/horadric-helper-html-binder@latest/hh-binder.js
 
 ### Usage
+#### Marked div
+```html
+<div data-hh-reference="reference"></div>
+```
 #### Binding function
 ```js
 window.BindHoradricHelperHtmlTags(configList);

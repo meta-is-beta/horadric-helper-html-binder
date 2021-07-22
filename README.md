@@ -4,9 +4,8 @@ This is for cases where using custom html tags is not possible.
 
 
 ### Link
-Example: https://codepen.io/meta-is-beta/pen/NWjaEGP
-CDN: https://cdn.jsdelivr.net/gh/meta-is-beta/horadric-helper-html-binder@latest/hh-binder.js
-
+- Example: https://codepen.io/meta-is-beta/pen/NWjaEGP
+- CDN: https://cdn.jsdelivr.net/gh/meta-is-beta/horadric-helper-html-binder@latest/hh-binder.js
 
 ### Usage
 #### Binding function

@@ -1,6 +1,6 @@
 function BindHoradricHelperHtmlTags(configList) {
   const createTag = ({ reference, type, props }) => {
-    const propsString = Object.keys(props).reduce((acc, val) => acc += `${val}="${props[val]}" `, "");
+    const propsString = props ? Object.keys(props).reduce((acc, val) => acc += `${val}="${props[val]}" `, "") : "";
 
     return `<poe-${type} reference=${reference} ${propsString}></poe-${type}>`
   }
